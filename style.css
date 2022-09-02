@@ -21,16 +21,23 @@
 
 .header-3 a {
     padding: 0 20px;
-}    
+}   
 .banner {
     background-color: rgb(122, 247, 122);
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-#grocery-store-img {
-    min-width: 100%;
-    min-height: 100%;
-    padding: 0px 300px 20px;
+#grocery-store-banner {
+    max-width: 900px;
+    width: 100%;
+    padding: 0px 380px 20px 0px;
+    max-height: 700px;
+    height: 100%;
+    display: block;
+
+            
 
 
 
@@ -52,9 +59,6 @@
     font-weight: 400;
     padding-top: 40px;
 }
-
-/* .banner1{
-    padding-left: 5px; */
 
 
 .banner2 {
@@ -86,7 +90,7 @@
     border: 0;
     box-sizing: border-box;
 }
-/* 
+
 .banner4 {
     display: flex;
     margin-top: 10px;
@@ -116,4 +120,3 @@
     font-weight: 600;
 }
 
-*/ */

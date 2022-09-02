@@ -72,13 +72,6 @@
     align-items: center;
     justify-content: space-between;
 }
-.header-3 .icons a {
-    font-size: 1.5rem;
-    color: #888;
-    padding-left: 1rem;
-    font-weight: normal;
-}
-
 
 #grocery-store-banner {
     max-width: 900px;
@@ -87,10 +80,6 @@
     max-height: 700px;
     height: 100%;
     display: block;
-
-            
-
-
 
 }
 
@@ -109,6 +98,32 @@
 #explain p {
     font-weight: 400;
     padding-top: 40px;
+}
+
+.banner1{
+    background: #eff7fa;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.banner1 h4 {
+    color: blue;
+}
+
+.banner1 .banner3:hover img{
+    transform: scale(1.1);
+    transition: .2s linear;
+}
+.banner1 .banner {
+    flex: 100px 100px 230px;
+    text-align: center;
+    padding: 15px;
+    background: #fff;
+    border-radius: 3px;
+    position: relative;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 6%);
+
 }
 
 

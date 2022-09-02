@@ -22,3 +22,98 @@
 .header-3 a {
     padding: 0 20px;
 }    
+.banner {
+    background-color: rgb(122, 247, 122);
+    display: flex;
+}
+
+#grocery-store-img {
+    min-width: 100%;
+    min-height: 100%;
+    padding: 0px 300px 20px;
+
+
+
+}
+
+#explain {
+    margin-top: 0%;
+    margin-left: 5%;
+    padding: 100px 0px;
+    width: auto;
+}
+
+#explain span {
+    color: red;
+    font-style: italic;
+}
+
+#explain p {
+    font-weight: 400;
+    padding-top: 40px;
+}
+
+/* .banner1{
+    padding-left: 5px; */
+
+
+.banner2 {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30%;
+    margin-right: 10%;
+    font-size: large;
+    font-weight: 400;
+}
+
+.banner3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+
+}
+
+.banner3 img {
+    max-width: 40%;
+    vertical-align: middle;
+    border: 0;
+    box-sizing: border-box;
+}
+/* 
+.banner4 {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner4 img {
+    max-width: 40%;
+    max-height: auto;
+    vertical-align: middle;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#all {
+    float: right;
+    color: black;
+    font-size: x-large;
+
+}
+
+#all i {
+    color: #ED661F;
+    font-weight: 600;
+}
+
+*/ */

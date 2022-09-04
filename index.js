@@ -13,7 +13,7 @@ fetch('https://groceries2.p.rapidapi.com/api/v1/groceries', options)
 	.then(response => console.log(response))
 	.catch(err => console.error(err));
 
-    let menu = document.querySelector('#menu-bar');
+let menu = document.querySelector('#menu-bar');
 let navbar = document.querySelector('.navbar');
 let header = document.querySelector('.header-2');
 
@@ -32,4 +32,5 @@ window.onscroll = () =>{
     else{
         header.classList.remove('active');
     }
-}
+    e.preventDefault()
+} 

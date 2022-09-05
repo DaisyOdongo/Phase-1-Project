@@ -33,20 +33,45 @@
     
         <div class="header-3">
     
-            <div id="menu-bar" >
-            <a href=# class="fas fa-bars"></a>
-            </div>
+            <div id="menu-bar" ><a href=# class="fas fa-bars"></a></div>
     
-            <nav class="shop-nav">
+            <nav class="navbar">
                 <a href="#">Home</a>
                 <a href="#">Shop</a>
-                <a href="#">Categories</a>
             </nav>
     
         </div>
     
-        <a href="#"><i class="fas fa-shopping-cart"></i></a>
-    
+        <div class="cart">
+            <button type="button" id="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cart-count-info"></span>
+            </button>
+        
+        <div class="cart-container">
+            <div class="cart-list">
+  
+                div class = "cart-item">
+                            <img src="https://st2.depositphotos.com/1526816/5854/v/600/depositphotos_58547269-stock-illustration-nutritious-carrots.jpg"
+                                alt="">
+                    <div class = "cart-item-info">
+                            <h3 class = "cart-item-name">Carrot</h3>
+                             <span class = "cart-item-category">Vegetable</span>
+                             <span class ="cart-item-description">Farm fresh carrots</span>
+                             <span class = "cart-item-price">Ksh. 450/Kg</span>
+                    </div>
+                            <button type = "button" class = "cart-item-del-btn">
+                            <i class = "fas fa-times"></i>
+                             </button>
+                    <div class="cart-total">
+                            <h3>Total: Ksh.</h3>
+                            <span id="cart-total-value"></span>
+                    </div>
+                            
+                    </div>
+                </div>
+
+            
     </header>
     <main>
 
@@ -62,89 +87,114 @@
             <div id="grocery-store-banner">
                 <img src="Images/grocery store-1280x720.jpg" alt="">
             </div>
-        </div>
-        
-        
-        <div class="banner1" id="products">
-        
-            <div class="banner2">
-                <h3>Our Categories of Product</h3>
+        </div>    
+        <div class="banner1">        
+                 <h3>Our Categories of Product</h3>
                 <p>We go beyond the borders to ensure that you get fresh produce from the farm. <br> Our customers are  quaranteed of farm-fresh produce with every purchase.</p>
-            </div>
-        
-            <div>
-                <h3>Most Popular Products</h3>
+        </div>
+            
+
+        <div class="banner2" id="products">
+            <div class="container"> </div>
+        </div>
+               
+         <div class="products">
+            <div class="container">
+                <h2>Our Products</h2>
+        <div class="product-list">    
+                <h3>Most Popular Products</h3>       
                 <div class="banner3">
-                    <section id=" carrots">
+                    <div>
+                        <div class="product-img">
                         <img src="https://st2.depositphotos.com/1526816/5854/v/600/depositphotos_58547269-stock-illustration-nutritious-carrots.jpg" alt="">
-                        <h4>Carrots</h4>
-                        <p>Farm fresh carrots</p>
-                        <h5>Ksh. 150/Kg</h5>
-                        <a href=""><i class="fas fa-shopping-cart"></i></a>
-                    </section>
-                    <section id="Grapes">
+                        </div>
+                        <h4 class="product-name">Carrots</h4>
+                        <p class="product-category">Vegetable</p>
+                        <p class="product-description">Farm fresh carrots</p>
+                        <h5 class="product-price">Ksh. 150/Kg</h5>
+                        <button type="button" class="add-t-cart-btn">
+                            <i class="fas fa-shopping-cart">Add To Cart</i>
+                        </button>
+                    </div>
+                    <div>
                         <img src="https://st.depositphotos.com/1005259/1247/i/450/depositphotos_12476731-stock-photo-green-and-rose-grapes-background.jpg" alt="">
-                        <h4>Grapes</h4>
-                        <p>Fresh Grapes</p>
-                        <h5>Ksh. 400/ Kg</h5>
-                        <a href=""><i class="fas fa-shopping-cart"></i></a>
-                    </section>
-                    <section id="Tumeric">
+                        <h4 class="name">Grapes</h4>
+                        <p class="category">Fruit</p>
+                        <p class="description">Fresh Grapes</p>
+                        <h5 class="price">Ksh. 400/ Kg</h5>
+                        <button type="button" class="add-t-cart-btn">
+                            <i class="fas fa-shopping-cart">Add To Cart</i>
+                        </button>
+                    </div>
+                    <div>
                         <img src="https://st4.depositphotos.com/14670260/19887/i/450/depositphotos_198873376-stock-photo-turmeric-powder-fresh-turmeric-grey.jpg" alt="">
-                        <h4>Tumeric</h4>
-                        <p>Fresh tumeric roots.</p>
-                        <h5>Ksh. 300/Kg</h5>
-                        <a href=""><i class="fas fa-shopping-cart"></i></a>
-                    </section>
-                    <section id="Broccoli">
+                        <h4 class="name">Tumeric</h4>
+                        <p class="category">Herbs</p>
+                        <p class="description">Fresh tumeric roots.</p>
+                        <h5 class="price">Ksh. 300/Kg</h5>
+                        <button type="button" class="add-t-cart-btn">
+                        <i class="fas fa-shopping-cart">Add To Cart</i>
+                        </button>
+                    </div>
+                    <div class="vegetables">
                         <img src="https://static9.depositphotos.com/1002351/1132/i/450/depositphotos_11323739-stock-photo-broccoli-vegetable.jpg" alt="">
-                        <h4>Broccoli</h4>
-                        <p>Fresh broccoli</p>
-                        <h5>Ksh. 90/Kg</h5>
-                        <a href=""><i class="fas fa-shopping-cart"></i></a>
-                    </section>
+                        <h4 class="name">Broccoli</h4>
+                        <p class="category">Vegetable</p>
+                        <p class="description">Fresh broccoli</p>
+                        <h5 class="price">Ksh. 90/Kg</h5>
+                        <button type="button" class="add-t-cart-btn">
+                            <i class="fas fa-shopping-cart">Add To Cart</i>
+                        </button>
+                    </div>
                 </div>
-        
-            </div>
-            <div>
+    
                 <h3>Newest Products</h3>
                 <div class="banner4">
-                    <div id="Red cabbage">
+                    <div>
                         <img src="https://st.depositphotos.com/3260227/4735/i/450/depositphotos_47355247-stock-photo-red-cabbage.jpg" alt="">
-                        <h4>Red cabbage</h4>
-                        <p>Organic red cabbage</p>
-                        <h5>Ksh.70/Kg</h5>
-                        <a href=""><i class="fas fa-shopping-cart"></i></a>
-        
+                        <h4 class="name">Red cabbage</h4>
+                        <p class="category">Vegetable</p>
+                        <p class="description">Organic red cabbage</p>
+                        <h5 class="price">Ksh.70/Kg</h5>
+                    <button type="button" class="add-t-cart-btn">
+                        <i class="fas fa-shopping-cart">Add To Cart</i>
+                    </button>
                     </div>
-                    <div id="Sage">
+                    <div>
                         <img src="https://st.depositphotos.com/1000141/3276/i/450/depositphotos_32764601-stock-photo-sage-plant.jpg" alt="">
-                        <h4>Sage</h4>
-                        <p>Fresh or dried sage.</p>
-                        <h5>Ksh. 60/bunch</h5>
-                        <a href=""><i class="fas fa-shopping-cart"></i></a>
-        
+                        <h4 class="name">Sage</h4>
+                        <p class="category">Herbs</p>
+                        <p class="description">Fresh or dried sage.</p>
+                        <h5 class="price">Ksh. 60/bunch</h5>
+                        <button type="button" class="add-t-cart-btn">
+                            <i class="fas fa-shopping-cart">Add To Cart</i>
+                        </button>
                     </div>
-                    <div id="Chickpeas">
+                    <div>
                         <img src="https://st4.depositphotos.com/9275210/24116/i/450/depositphotos_241160196-stock-photo-chickpeas-ceramic-bowl-dark-wooden.jpg" alt="">
-                        <h4>Chickpeas</h4>
-                        <p>Dried chickpeas</p>
-                        <h5>Ksh. 150/Kg</h5>
-                        <a href=""><i class="fas fa-shopping-cart"></i></a>
-        
+                        <h4 class="name">Chickpeas</h4>
+                        <p class="category">Cereal</p>
+                        <p class="description">Dried chickpeas</p>
+                        <h5 class="price">Ksh. 150/Kg</h5>
+                        <button type="button" class="add-t-cart-btn">
+                            <i class="fas fa-shopping-cart">Add To Cart</i>
+                        </button>
                     </div>
-                    <div id="Kiwi">
+                    <div>
                         <img src="https://st3.depositphotos.com/1027198/13316/i/450/depositphotos_133169844-stock-photo-fresh-kiwi-fruit.jpg" alt="">
-                        <h4>Kiwi</h4>
-                        <p>Fresh kiwi fruit.</p>
-                        <h5>Ksh. 600/Kg</h5>
-                        <a href=""><i class="fas fa-shopping-cart"></i></a>
-        
+                        <h4 class="name">Kiwi</h4>
+                        <p class="categories">Fruit</p>
+                        <p class="description">Fresh kiwi fruit.</p>
+                        <h5 class="price">Ksh. 450/Kg</h5>
+                        <button type="button" class="add-t-cart-btn">
+                            <i class="fas fa-shopping-cart">Add To Cart</i>
+                        </button>
                     </div>
         
-                </div>
+                </div> -->
             </div>
         </div>
+        
     </main>
  
     <footer>
@@ -165,14 +215,6 @@
                     <div class="content">
                         <h3>100% Satisfaction Guarantee</h3>
                         <p>Fresh produce to our cutomers satisfaction.</p>
-                    </div>
-                </div>
-        
-                <div class="feature-box">
-                    <i class="fas fa-tag"></i>
-                    <div class="content">
-                        <h3>Great Daily Deals Discount</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
             </div>
